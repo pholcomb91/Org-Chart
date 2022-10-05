@@ -1,0 +1,26 @@
+{
+  "name": "org-chart",
+  "version": "1.0.0",
+  "description": "Generates and displays user introduced Organization Chart",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pholcomb91/Org-Chart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pholcomb91/Org-Chart/issues"
+  },
+  "homepage": "https://github.com/pholcomb91/Org-Chart#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
