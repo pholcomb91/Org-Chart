@@ -10,10 +10,12 @@ describe("Employee", () => {
             expect(int.school).toBe('UofA');
         });
         it("should return the role of 'intern'", () => {
-            expect(getrole()).toBe("Intern");
+            const int = new Intern ("John", 2, 'me@me.com', "UofA")
+            expect(int.getRole()).toBe("Intern");
         });
         it("should return school UofA", () => {
-            expect(getSchool()).toBe("UofA")
+            const int = new Intern ("John", 2, 'me@me.com', "UofA")
+            expect(int.getSchool()).toBe("UofA");
         });
     });
 })

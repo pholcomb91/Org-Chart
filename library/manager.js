@@ -5,7 +5,6 @@ class Manager extends Employee {
     super(name, id, email);
     this.office = office;
   }
-  //not mentioned in readme
   getOffice(){
     return this.office
   }
