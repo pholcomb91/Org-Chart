@@ -49,7 +49,7 @@ const generateHTML = (employeeArray) =>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">ID: ${employee.id}</li>
                     <a href="mailto:${employee.email}" class="list-group-item">Email: ${employee.email}</a>
-                    <li href="https://github.com/${employee.github}" class= "list-group-item">Github: ${employee.github}</li>
+                    <a href="https://github.com/${employee.github}" target= "_blank" class= "list-group-item">Github: ${employee.github}</a>
                 </ul>
                 </div>
             </div>`
